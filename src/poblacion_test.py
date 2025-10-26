@@ -37,7 +37,7 @@ def test_muestra_evolucion_poblacion(datos):
     muestra_evolucion_poblacion(datos, pais)
 
 if __name__ == "__main__":
-    datos = lee_poblaciones("./proyecto-poblaciones-DML8267/data/population.csv")
+    datos = lee_poblaciones("data/population.csv")
     #test_lee_poblaciones(datos)
     #test_calcula_paises(datos)
     #test_filtra_por_pais(datos)
